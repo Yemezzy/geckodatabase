@@ -1,11 +1,45 @@
 import React from 'react'
 import { IoConstructSharp } from "react-icons/io5";
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
+import Button from '@mui/material/Button';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
 
 
 const Startpage = () => {
+  const [open, setOpen] = React.useState(false);
+  const [show, setShow] = React.useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+    setTimeout(() => {
+      setOpen(false);
+      window.location.replace("https://www.coingecko.com/request-form/submissions?locale=en")
+    }, 5000);
+    // setTimeout(() => {
+    //   setShow(true);
+    // }, 3100);
 
+  };
+
+
+  const handleClickOpen = () => {
+    setShow(true);
+  };
+
+  const Close = () => {
+    setShow(false);
+  };
+
+  
 const submit = ()=>{
-  alert("you  are not authorised here")
+  alert("You are not authorized to make changes to this database.")
+  setTimeout(() => {
+    window.location.replace("https://www.coingecko.com/")
+  }, 1000);
 }
 
 
@@ -108,7 +142,7 @@ Please ensure that all details are accurately implemented to avoid additional ch
 </div>
 
 <div className='mt-3 app flex justify-between'>
-<button className='px-4 py-2 bg-[#66BB6A]' >Approve Listing</button>
+<button className='px-4 py-2 bg-[#66BB6A]' onClick={handleOpen}>Approve Listing</button>
 <button className='px-4 py-2 bg-[#FD5370] flex gap-2 items-center' onClick={submit}><IoConstructSharp className='text-black text-lg'/>Edit details </button>
 </div>
 
@@ -152,7 +186,41 @@ Please ensure that all details are accurately implemented to avoid additional ch
     </div>
   </footer>
 </div>
-    
+<Backdrop
+        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={open}
+      
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
+      {/* <div>
+      <React.Fragment>
+      <Dialog
+        open={show}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <DialogTitle id="alert-dialog-title">
+          {"CONGRATULATIONS!!"}
+        </DialogTitle>
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+            <p>
+            Let Google help apps determine location. This means sending anonymous
+            location data to Google, even when no apps are running.
+
+            </p>
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+         
+          <button onClick={""} autoFocus className='w-full app bg-green-600 py-2'>
+            Click here to publish on CoinGecko
+          </button>
+        </DialogActions>
+        </Dialog>
+        </React.Fragment>
+      </div> */}
     </div>
   )
 }
