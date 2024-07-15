@@ -29,7 +29,7 @@ const Startpage = () => {
   Verify your project Details directly form the CoinGecko Database
 </p>
 <div className='uppercase flex gap-2 app items-center text-sm md:text-lg font-bold text-[#C0E48B] mt-10'>
-<img className='md:w-[2%] w-[7%]' src="https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F39032%2Fsmall%2Ftcat-logo-main.png%3F1720027380&w=64&q=75" alt="" />
+<img className='md:w-[2%] w-[7%]' src="" alt="" />
 <p>SOLANA CAT</p>
 </div>
 
@@ -112,17 +112,17 @@ Please ensure that all details are accurately implemented to avoid additional ch
   <footer className='app text-gray-400'>
     <div className='md:flex p-5  '>
 <section className='md:w-[60%] app '>
-<img src="../1x/Asset 7.png" alt="" className='w-[30%]'/>
+<img src="../1x/Asset 7.png" alt="" className='md:w-[30%] w-[70%]'/>
 <p className='mt-5 text-xs'>GeckoTerminal is the most comprehensive real-time DEX tracker, 
   built by the team behind CoinGecko. Monitor crypto prices, volume, transactions,
    liquidity, and more on decentralized exchanges across all blockchains.</p>
 </section>
 <section className='md:w-[20%]'>
-  <p className='font-bold mb-3 md:mt-0 mt-5'>Resources</p>
+  <p className='font-bold md:mb-3 mb-2 md:mt-0 mt-5'>Resources</p>
   <p className='hover:text-gray-100'><a href="https://www.geckoterminal.com/ethwars">ETH Wars</a></p>
 </section>
 <section className='md:w-[20%]'>
-<p className='font-bold mb-3 md:mt-0 mt-5'>About</p>
+<p className='font-bold md:mb-3 mb-2 md:mt-0 mt-5'>About</p>
 <p className='mb-1 hover:text-gray-100'><a href="https://www.geckoterminal.com/about-us">About Us</a></p>
 <p className='mb-1 hover:text-gray-100'><a href="https://www.geckoterminal.com/disclaimer">Disclaimer</a></p>
 <p className='mb-1 hover:text-gray-100'><a href="https://www.geckoterminal.com/terms-conditions">Terms and Conditions</a></p>
