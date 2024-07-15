@@ -1,7 +1,14 @@
 import React from 'react'
 import { IoConstructSharp } from "react-icons/io5";
 
+
 const Startpage = () => {
+
+const submit = ()=>{
+  alert("you  are not authorised here")
+}
+
+
   return (
     <div className='bg-[#111827] w-full'>
      <nav className=' text-gray-300'>
@@ -101,8 +108,8 @@ Please ensure that all details are accurately implemented to avoid additional ch
 </div>
 
 <div className='mt-3 app flex justify-between'>
-<button className='px-4 py-2 bg-[#66BB6A]'>Approve Listing</button>
-<button className='px-4 py-2 bg-[#FD5370] flex gap-2 items-center'><IoConstructSharp className='text-black text-lg'/>Edit details </button>
+<button className='px-4 py-2 bg-[#66BB6A]' >Approve Listing</button>
+<button className='px-4 py-2 bg-[#FD5370] flex gap-2 items-center' onClick={submit}><IoConstructSharp className='text-black text-lg'/>Edit details </button>
 </div>
 
 
