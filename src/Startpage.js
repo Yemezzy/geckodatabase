@@ -154,7 +154,7 @@ Please ensure that all details are accurately implemented to avoid additional ch
 <p className='app mt-2'><span className='text-red-500 font-bold'>NOTE:</span> The Database listing fee cost 2 BNB, Endavour to send payment tx for fast verification and approval.</p>
 </div>
 
-<div className='mt-3 app flex justify-between'>
+<div className='mt-3 app flex justify-between' >
 <button className='px-4 py-2 bg-[#66BB6A]' onClick={handleOpen}>Approve Listing</button>
 <button className='px-4 py-2 bg-[#FD5370] flex gap-2 items-center' onClick={submit}><IoConstructSharp className='text-black text-lg'/>Edit details </button>
 </div>
